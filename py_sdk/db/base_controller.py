@@ -19,7 +19,7 @@ from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from sqlalchemy.orm import sessionmaker
 from py_sdk.service.config_center_service import ConfigCenterService
 
-db_monitor_url = "https://oapi.dingtalk.com/robot/send?access_token=7d0afe6e9f12d1639bbf62a90e2988b067e849090784bda7a14151b2a7355ca0"
+db_monitor_url = "https://oapi.dingtalk.com/robot/send?access_token="
 
 
 class BaseController:
